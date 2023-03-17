@@ -1,0 +1,18 @@
+setwd("/Users/shameenkhan/Desktop/Class/R_Analysis/MechaCar_Statistical_Analysis") 
+mecha <- read.csv("MechaCar_mpg.csv",stringsAsFactors = F,check.names = F) 
+View(mecha) 
+library(tidyverse) 
+mecha  
+mecha_lm <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mecha) 
+summary(mecha_lm) 
+setwd("/Users/shameenkhan/Desktop/Class/R_Analysis/Starter_Code (9)") 
+summarize_suspension_coil <- suspension_Coil %>% summarize (mean=mean(PSI), median(
+  +     PSI), Variance=var(PSI), SD=sd(PSI)) 
+print(summarize_suspension_coil) 
+lot_summary <- suspension_Coil %>% group_by(Manufacturing_Lot)%>%summarize (mean=mean(PSI), median(PSI), Variance=var(PSI), SD=sd(PSI)) 
+print(lot_summary) 
+View(summarize_suspension_coil) 
+t.test(suspension_Coil$PSI, mu = 1500) 
+t.test(subset(suspension_Coil, Manufacturing_Lot == 'Lot1')$PSI, mu = 1500) 
+t.test(subset(suspension_Coil, Manufacturing_Lot == 'Lot2')$PSI, mu = 1500) 
+t.test(subset(suspension_Coil, Manufacturing_Lot == 'Lot3')$PSI, mu = 1500)
