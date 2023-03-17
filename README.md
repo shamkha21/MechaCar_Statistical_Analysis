@@ -8,3 +8,4 @@ The current manufacturing data meets the design specification of variance within
 
 ## T-Tests on Suspension Coils 
 For the one sample t-test including all three manufacturing lots the results show the test has no statistical difference between the observed mean and the population mean. The p value =0.06, which is greater than the cut off of 0.05. 
+![image](test1.png)
