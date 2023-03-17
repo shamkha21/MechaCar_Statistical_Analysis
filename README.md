@@ -14,3 +14,7 @@ For the one sample t-test including all three manufacturing lots the results sho
 For the t-test for Lot 1, the p value is equal to 1. This means the null hypothesis is correct once again, and the population mean is not different than the sample mean of Lot 1.  
 
 ![image](Testlot2.png)
+ 
+Regarding Lot 2, the significance is equal to 0.6072, also meaning the population mean is equal to the sample mean. 
+
+![image](lot2.png)
