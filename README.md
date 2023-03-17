@@ -21,4 +21,11 @@ Regarding Lot 2, the significance is equal to 0.6072,  meaning the population me
  
 The significance for Lot 3 is statistically significant with a p value equal to 0.04168. This means that the population mean is not equal to the sample mean. Reject the null hypothesis.  
 
-![image](Lot3.png)
+![image](Lot3.png) 
+
+## Study Design: MechaCar vs Competition 
+
+The metrics that we would assess is cost per year of maintenance for a MechaCar compared to the average cost per year for car maintenance.  
+Null Hypothesis: There is no difference is in the mean maintenance price per year for a MechaCar compared to the mean of maintenance cost for a vehicle.  
+Alternative Hypotheis: There is a difference in the mean maintenance price per year for a MechaCar compared to the mean of maintenance cost for a vehicle.   
+The statistical test I would use to test the hypothesis is a two tailed t test to check if there is a difference in the means and if so in which direction. The data that is needed to run the statistical test is the average maitenance cost for MechaCar and the average cost of maintenance for vehicles. 
