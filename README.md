@@ -10,3 +10,7 @@ The current manufacturing data meets the design specification of variance within
 For the one sample t-test including all three manufacturing lots the results show the test has no statistical difference between the observed mean and the population mean. The p value =0.06, which is greater than the cut off of 0.05.  
 
 ![image](test1.png)
+ 
+For the t-test for Lot 1, the p value is equal to 1. This means the null hypothesis is correct once again, and the population mean is not different than the sample mean of Lot 1.  
+
+![image](Testlot2.png)
